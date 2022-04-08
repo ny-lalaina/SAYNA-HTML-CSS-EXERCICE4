@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap');
+@font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../Police/Far-From-Homecoming-Updated.otf) format('OpenType');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #B11313;
+    --primary-jaune: #F1C530;
+    --primary-blue: #114C92;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.conteneur {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+nav {
+    background: var(--primary-color);
+    padding: 5px 0;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand img {
+    padding-left: 15px;
+}
+
+nav .brand img:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li {
+    /* padding-left: 5px; */
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 30px;
+    color: var(--white);
+}
+
+
+/* DESIGN SPIDERMAN */
+
+#spiderman {
+    background: url(../Illustration/img1.png) no-repeat;
+    background-color: var(--primary-color);
+}
+
+#spiderman .text {
+    color: var(--white);
+}
+
+#spiderman .text1 .text2 {
+    color: var(--white);
+}
+
+#spiderman .text1 {
+    font-size: 75px;
+    padding-top: 25%;
+    padding-bottom: 10%;
+    color: var(--white);
+    font-family: 'far_from_homecoming';
+}
+
+#spiderman .text2 {
+    padding-top: 10%;
+    color: var(--white);
+    font-family: 'far_from_homecoming';
+}
+
+#spiderman button {
+    color: var(--black);
+    width: 17%;
+}
+
+#spiderman .bouton1 {
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+
+#spiderman .bouton2 {
+    height: 50px;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+#spiderman .bouton3 {
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    height: 30px;
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+
+#spiderman .story {
+    text-align: justify;
+    color: var(--white);
+}
+
+#spiderman .story2 {
+    word-spacing: -5px;
+}
+
+#spiderman .card {
+    background: var(--primary-color);
+    justify-content: center;
+}
+
+#spiderman .bodycard {
+    justify-content: space-between;
+    border-color: var(--primary-color);
+}
+
+#spiderman .bodycard p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#spiderman .bodycard a {
+    margin-left: 25%;
+    margin-bottom: 30%;
+}
+
+
+/* DESIGN FORMULAIRE */
+
+#formulaire {
+    background: var(--primary-blue);
+}
+
+#formulaire img {
+    margin-left: -25%;
+}
+
+#formulaire .text {
+    color: var(--white);
+}
+
+#formulaire .titre {
+    font-family: 'far_from_homecoming';
+    padding-top: 10%;
+    text-align: center;
+}
+
+#formulaire .forme {
+    width: 100%;
+}
+
+#formulaire .formulaire1 {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#formulaire button {
+    width: 30%;
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: 15%;
+    border-color: var(--white);
+    color: var(--white);
+    justify-content: center;
+}
+
+
+/* newsletter */
+
+#newsletter {
+    background-color: var(--primary-color);
+    background-image: url(../Illustration/img6.png);
+    background-position: 75vh;
+    height: 130vh;
+    background-repeat: no-repeat;
+}
+
+#newsletter .titre {
+    padding-top: 15%;
+    padding-bottom: 2%;
+    color: var(--white);
+    font-family: 'far_from_homecoming';
+}
+
+#newsletter .paraf {
+    color: var(--white);
+    padding-bottom: 10%;
+}
+
+#newsletter .forms {
+    margin-top: 1%;
+    width: 50%;
+}
+
+#newsletter .bouton {
+    margin-top: 5%;
+    color: var(--white);
+}
+
+#newsletter .form-control {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+#newsletter .confidentialité {
+    color: var(--white);
+}
+
+#newsletter .check {
+    color: var(--white);
+}
+
+#newsletter button {
+    align-items: center;
+    margin-bottom: 25%;
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--black);
+}
+
+footer .footerflex {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--white);
+    justify-content: space-between;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+.button1 {
+    align-items: center;
+    width: 150px;
+    background-color: var(--primary-color);
+}
+
+footer .socialmedia {
+    padding-left: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .socialmedia img {
+    padding: 10px;
+    background-color: var(--primary-color);
+    margin: 15px;
+    max-width: 50px;
+    border-radius: 100%;
+}
+
+
+/* Design Copyright */
+
+footer .copyright {
+    color: var(--white);
+}

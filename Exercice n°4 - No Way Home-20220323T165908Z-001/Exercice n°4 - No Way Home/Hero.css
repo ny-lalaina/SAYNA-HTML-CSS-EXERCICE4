@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap');
+@font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../Police/Far-From-Homecoming-Updated.otf) format('OpenType');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #B11313;
+    --primary-jaune: #F1C530;
+    --primary-blue: #114C92;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.conteneur {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+nav {
+    background: var(--primary-blue);
+    padding: 5px 0;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand img {
+    padding-left: 15px;
+}
+
+nav .brand img:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li {
+    /* padding-left: 5px; */
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 30px;
+    color: var(--white);
+}
+
+
+/* Design de la partie héros */
+
+#hero {
+    /* background-color: var(--primary-color); */
+    background-image: url("../Illustration/img19.png");
+    background-position: left;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero .conteneur {
+    color: var(--white);
+}
+
+#hero .titre {
+    font-family: 'far_from_homecoming';
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+#hero .description {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 150%;
+    /* font-size: 2, 8rem; */
+}
+
+#hero .box {
+    padding-top: 15%;
+    position: relative;
+}
+
+
+/* Design premiere partie */
+
+main {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+main .titre {
+    padding-top: 100px;
+    font-family: 'far_from_homecoming';
+    /* font-size: 5rem; */
+}
+
+main .description {
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+main .texte {
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+
+/* Fondation Solide */
+
+#spiderman {
+    background: url(../Illustration/img20.png) no-repeat;
+    height: 70vh;
+    color: var(--white);
+}
+
+#spiderman .titre {
+    padding-top: 15%;
+    font-family: 'far_from_homecoming';
+}
+
+#spiderman .description {
+    font-weight: bold;
+}
+
+
+/* PERSONNAGES */
+
+#personnage {
+    background: var(--primary-blue);
+    color: var(--white);
+}
+
+#personnage .text1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+
+/* PART2 */
+
+#personnage .lycée {
+    margin-top: 7%
+}
+
+#personnage .MA {
+    text-align: justify;
+}
+
+#personnage .titre {
+    font-family: 'far_from_homecoming';
+}
+
+#personnage .best {
+    padding-top: 13%;
+    margin-left: -22%;
+}
+
+#personnage .meilleuramis {
+    padding-top: 5%;
+    margin-left: -15%;
+}
+
+#personnage .title {
+    padding-bottom: 10%;
+    font-family: 'far_from_homecoming';
+    text-align: center;
+}
+
+
+/* girls */
+
+#personnage .girls p {
+    text-align: justify;
+    padding-bottom: 15%;
+}
+
+#personnage .girlfriends {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+#personnage .girlfriends img {
+    margin-left: 15%;
+}
+
+#personnage .girlfriends .copine {
+    margin-left: 70%;
+}
+
+
+/* LES AVENGERS */
+
+#avengers {
+    background: var(--primary-color);
+    text-align: justify;
+    color: var(--white);
+}
+
+#avengers .superhero {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+#avengers .superhero .title {
+    font-family: 'far_from_homecoming';
+}
+
+#avengers .superhero img {
+    margin-left: -10%;
+    width: 200px;
+    margin-top: 10%;
+}
+
+#avengers p {
+    padding-top: 5%;
+    margin-left: -10%;
+    font-size: 14px;
+}
+
+#avengers .galaxy {
+    margin-right: 5%;
+    padding-right: -15%;
+}
+
+
+/* Design UNIVERS */
+
+#univers {
+    background: url(../Illustration/img33.png) no-repeat;
+    height: 80vh;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--black);
+}
+
+footer .footerflex {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--white);
+    justify-content: space-between;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+.button1 {
+    align-items: center;
+    width: 150px;
+    background-color: var(--primary-blue);
+}
+
+footer .socialmedia {
+    padding-left: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .socialmedia img {
+    padding: 10px;
+    background-color: var(--primary-blue);
+    margin: 15px;
+    max-width: 50px;
+    border-radius: 100%;
+}
+
+
+/* Design Copyright */
+
+footer .copyright {
+    color: var(--white);
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap');
+@font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../Police/Far-From-Homecoming-Updated.otf) format('OpenType');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #B11313;
+    --primary-jaune: #F1C530;
+    --primary-blue: #114C92;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.conteneur {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+nav {
+    background: var(--primary-color);
+    padding: 5px 0;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand img {
+    padding-left: 15px;
+}
+
+nav .brand img:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li {
+    /* padding-left: 5px; */
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 30px;
+    color: var(--white);
+}
+
+
+/* Design de la partie coming soon */
+
+#hero {
+    /* background-color: var(--primary-color); */
+    background-image: url("../Illustration/img35.png");
+    background-position: left;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero .conteneur {
+    color: var(--white);
+}
+
+#hero .titre {
+    font-family: 'far_from_homecoming';
+    padding-top: 10%;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+#hero .description {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1, 4rem;
+}
+
+#hero .box {
+    padding-top: 25%;
+    position: relative;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--black);
+}
+
+footer .footerflex {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--white);
+    justify-content: space-between;
+}
+
+footer .footerflex a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer .logo {
+    text-align: center;
+}
+
+.button1 {
+    align-items: center;
+    width: 150px;
+    background-color: var(--primary-color);
+}
+
+footer .socialmedia {
+    padding-left: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .socialmedia img {
+    padding: 10px;
+    background-color: var(--primary-color);
+    margin: 15px;
+    max-width: 50px;
+    border-radius: 100%;
+}
+
+
+/* Design Copyright */
+
+footer .copyright {
+    color: var(--white);
+}
